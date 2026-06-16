@@ -1,0 +1,7 @@
+.git
+vendor
+node_modules
+android/.gradle
+android/app/build
+storage/logs/*.log
+.env
