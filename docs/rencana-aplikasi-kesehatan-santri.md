@@ -342,3 +342,9 @@ Entitas utama yang perlu disiapkan:
 - Modul laporan PDF/Excel.
 - Dokumentasi API.
 - Panduan pengguna dan panduan admin.
+
+## 12. Status Implementasi Saat Ini
+
+Implementasi lanjutan sudah mencakup API autentikasi token, CRUD data inti, pembuatan resep dengan jadwal obat otomatis, observasi harian, rujukan, audit log, dashboard ringkas, laporan summary, export CSV laporan santri sakit, dan skeleton Android yang dapat memanggil endpoint inti.
+
+Item yang masih perlu dikerjakan sebelum production meliputi UI web admin lengkap, UI Android produksi, registrasi middleware sesuai bootstrap Laravel final, seed data admin, export PDF/Excel yang kaya format, notifikasi push/WhatsApp, offline mode Android, test end-to-end, CI/CD, dan hardening deployment.

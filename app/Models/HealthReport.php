@@ -35,4 +35,14 @@ class HealthReport extends Model
     {
         return $this->hasMany(Prescription::class);
     }
+
+    public function observations(): HasMany
+    {
+        return $this->hasMany(DailyObservation::class);
+    }
+
+    public function referrals(): HasMany
+    {
+        return $this->hasMany(Referral::class);
+    }
 }
